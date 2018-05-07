@@ -4,10 +4,34 @@
 	<meta charset="UTF-8" />
 	<title>Manipulating HTML document</title>
 	<link rel="stylesheet" href="styles.css" />
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
+<script>
+	$(document).ready(function(){
+
+		//remove form
+		//$('form').remove();
+
+
+		//create 5 new div's in article
+		//var newdiv = $('<div></div><div></div><div></div><div></div><div></div>');
+		//$('article').prepend(newdiv);
+
+
+		//change value of input field
+		//$("input").val('Search for ...');
+
+
+		//add class name to new div's
+		//$('div').addClass('box');
+
+
+		//change the link
+		$("a").attr("href" ,"https://www.codefactory.wien");
+
+	});
+</script>
 
 	<header>
 		<h1>jQuery Page Modification</h1>
